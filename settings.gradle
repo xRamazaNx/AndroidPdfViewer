@@ -13,5 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
+include ':sample'
 include ':android-pdf-viewer'
 include ':pdfium'

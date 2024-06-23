@@ -9,11 +9,12 @@ android {
         versionCode 1
         versionName "3.3.1"
     }
+    namespace 'com.github.barteksc.pdfviewer'
 
 }
 
 dependencies {
     //noinspection GradleCompatible,GradleCompatible
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    api (project(":pdfium"))
+    api(project(":pdfium"))
 }
